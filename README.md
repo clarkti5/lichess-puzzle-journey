@@ -40,7 +40,7 @@ We went through 300,000,000 analysed games from the Lichess database, and re-ana
 
 >[notebook link]
 
-At the onset of the COVID-19 Pandemic in early 2020, I—like many others—inexplicably found myself interested in learning to play chess. I created an account on Lichess.org—the clearly superior, open-source alternative to Chess.com—in May of 2020, but didn't do much with it aside from the occasional coorespondence game with friends and family.
+At the onset of the COVID-19 Pandemic in early 2020, I—like many others—inexplicably found myself interested in learning to play chess. I created an account on Lichess.org (the clearly superior, open-source alternative to Chess.com) in May of 2020, but didn't do much with it aside from the occasional coorespondence game with friends and family.
 
 About 2 years later, I found myself practicing more frequently with the tactics puzzles available on Lichess. Eventually, I noticed that my puzzle performance was being evaluated with a puzzle rating. From https://database.lichess.org/#puzzles,
 
