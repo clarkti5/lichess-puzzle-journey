@@ -2,7 +2,7 @@
 
 # lichess-puzzle-journey
 
->An exploration of my journey to achieving a 2,500 puzzle rating on Lichess.org.
+>My journey to achieving a 2,500 puzzle rating on Lichess.org and some general exploration of the Lichess puzzle database.
 
 
 
