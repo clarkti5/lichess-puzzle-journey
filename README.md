@@ -4,7 +4,7 @@
 
 >My journey to achieving a 2,500 puzzle rating on Lichess.org and some general exploration of the Lichess puzzle database.
 
-
+This repository contains so exploration and investigation into the [Lichess](https://lichess.org) database of chess puzzles as well as my own chess puzzle progress. This was undertaken partly out of curiosity and partly to practice some `Python`, `R`, and `Tableau`. As such, you'll find that I do most of the data manipulation in `Python` using `pandas` with initial visualizations in `R` using `ggplot2`, all of which was done in `Google Colab` using `rpy2` to run `Python` and `R` in the same notebook. Advanced visualizations and dashboards were done in `Tableau`.
 
 # What is Lichess?
 
@@ -34,7 +34,7 @@ After about a year of taking puzzles far too seriously, on February 24, 2023, I 
 
 >[folder link]
 
-This repository contains some basic processing and analysis of the [Lichess.org](https://lichess.org/) puzzle database. The database itself was obtained from https://database.lichess.org/#puzzles on March 22, 2023. The database contains information on Lichess puzzles including
+We perform some basic processing and analysis of the [Lichess.org](https://lichess.org/) puzzle database. The database itself was obtained from https://database.lichess.org/#puzzles on March 22, 2023. The database contains information on Lichess puzzles including
 
 - Puzzle ID
 - FEN (board position 1 move prior to the beginning of the puzzle)
