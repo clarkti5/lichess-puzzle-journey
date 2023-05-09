@@ -4,7 +4,11 @@
 
 >My journey to achieving a 2,500 puzzle rating on Lichess.org and some general exploration of the Lichess puzzle database.
 
-This repository contains some exploration and investigation into the [Lichess](https://lichess.org) database of chess puzzles as well as my own chess puzzle progress. This was undertaken partly out of curiosity and partly to practice some `Python`, `R`, and `Tableau`. As such, you'll find that I do most of the data manipulation in `Python` using `pandas` with initial visualizations in `R` using `ggplot2`, most of which was done in `Google Colab` using `rpy2` to run `Python` and `R` in the same notebook. Advanced visualizations and dashboards were done in `Tableau`. This is certainly not the most efficient way to do things but it worked out well enough overall.
+This repository contains some exploration and investigation into the [Lichess](https://lichess.org) database of chess puzzles as well as my own chess puzzle progress. 
+
+This project was undertaken partly out of curiosity and partly to practice some `Python`, `R`, and `Tableau`. As such, I did most of the data manipulation in `Python` using `pandas` with initial visualizations in `R` using `ggplot2`. Most of the work was done in `Google Colab`, since I wanted to familiarize myself with that platform, as well. I used `rpy2` to run `Python` and `R` in the same `Colab` notebook via `R magic`. Occasionally, the `Colab` runtime would run out of RAM and crash when using `R magic`—in those cases, I ran the `R` code locally. Advanced visualizations and dashboards were done in `Tableau`. 
+
+This is *certainly* not the most efficient way to do things but it worked out well enough overall and I learned a lot along the way.
 
 # What is Lichess?
 
