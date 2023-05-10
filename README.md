@@ -32,7 +32,7 @@ Basically, the higher-rated the puzzle, the more difficult it is to solve, and t
 
 Now that a metric of performance was involved, what started as a way to pass time between classes and meetings turned into a personal challenge to see how high I could push my puzzle rating.
 
-After about a year of taking puzzles far too seriously, on February 24, 2023, I reached my all-time high puzzle rating of `2,510` (putting me in the 97.6 percentile for puzzle ratings). In [folder link], you'll find an overview of my investigations in [overview link], with the details behind the data collection and analysis in [notebook link] and [notebook link] respectively.
+After about a year of taking puzzles far too seriously, on February 24, 2023, I reached my all-time high puzzle rating of `2,510` (putting me in the 96th percentile for puzzle ratings). In [folder link], you'll find an overview of my investigations in [overview link], with the details behind the data collection and analysis in [notebook link] and [notebook link] respectively.
 
 # Exploring the Lichess puzzle database
 
