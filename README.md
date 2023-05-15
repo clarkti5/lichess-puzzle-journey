@@ -40,7 +40,9 @@ Basically, the higher-rated the puzzle, the more difficult it is to solve, and t
 
 Now that a metric of performance was involved, what started as a way to pass time between classes and meetings turned into a personal challenge to see how high I could push my puzzle rating.
 
-After about a year of taking puzzles far too seriously, on February 24, 2023, I reached my all-time high puzzle rating of `2,510` (putting me in the `96th` percentile for puzzle ratings). You'll details behind the data collection and analysis in [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb) and [`lichess_puzzle_activity_history_eda.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Exploratory%20Analysis/lichess_puzzle_activity_history_eda.ipynb) respectively.
+After about a year of taking puzzles far too seriously, on February 24, 2023, I reached my all-time high puzzle rating of `2,510` (putting me in the `96th` percentile for puzzle ratings). 
+
+You'll details behind the data collection and analysis in [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb) and [`lichess_puzzle_activity_history_eda.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Exploratory%20Analysis/lichess_puzzle_activity_history_eda.ipynb) respectively.
 
 # Exploring the Lichess puzzle database
 
