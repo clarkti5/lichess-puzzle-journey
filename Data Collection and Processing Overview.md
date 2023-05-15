@@ -1,4 +1,4 @@
-# Data collection and processing overview
+# Data Collection and Processing Overview
 > See [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb) for details.
 
 ## Contents
