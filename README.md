@@ -26,7 +26,9 @@ We collected data from the full [Lichess puzzle database](https://database.liche
 
 # My puzzle journey
 
->[My Puzzle Activity Overview](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/My%20Puzzle%20Activity%20Overview.md)
+> - [My Puzzle Activity Overview](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/My%20Puzzle%20Activity%20Overview.md)
+> - [Puzzle Activity Dashboard](https://public.tableau.com/views/MyLichessPuzzleActivity/MyPuzzleActivity?:language=en-US&:display_count=n&:origin=viz_share_link)
+> - [Rating History Dashboard](https://public.tableau.com/views/MyLichessPuzzleRatingHistory/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 At the onset of the COVID-19 Pandemic in early 2020, I—like many others—inexplicably found myself interested in learning to play chess. I created an account on Lichess.org (the clearly superior, open-source alternative to Chess.com) in May of 2020, but didn't do much with it aside from the occasional coorespondence game with friends and family.
 
@@ -42,7 +44,8 @@ After about a year of taking puzzles far too seriously, on February 24, 2023, I 
 
 # Exploring the Lichess puzzle database
 
->[Lichess Puzzle Database Overview](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Lichess%20Puzzle%20Database%20Overview.md)
+> - [Lichess Puzzle Database Overview](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Lichess%20Puzzle%20Database%20Overview.md)
+> - [Lichess Puzzle Database Dashboard](https://public.tableau.com/views/LichessPuzzleDatabase/LichessPuzzleDatabase?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 We perform some basic processing and analysis of the [Lichess.org](https://lichess.org/) puzzle database. The database itself was obtained from https://database.lichess.org/#puzzles on March 22, 2023. The database contains information on Lichess puzzles including
 
