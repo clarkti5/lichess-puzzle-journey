@@ -22,7 +22,7 @@ With humble beginnings, [Lichess.org](https://lichess.org) (pronounced "lee-ches
 
 >[Data Collection and Processing Overview](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing%20Overview.md)
 
-We collected data from the full [Lichess puzzle database](https://database.lichess.org/#puzzles) as well as data on my personal rating history and puzzle activity. Details can be found in [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb).
+We collected data from the full [Lichess puzzle database](https://database.lichess.org/#puzzles) as well as data on my personal rating history and puzzle activity vie the [Lichess API](https://lichess.org/api). Details can be found in [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb).
 
 # My puzzle journey
 
