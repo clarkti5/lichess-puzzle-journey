@@ -149,5 +149,33 @@ Finally, we looked at opening tag as it relates to puzzle rating.
 The median rating is pretty consistent across openings. The `Zukertort_Defense` and `Amar_Gambit` are the only openings with a median rating over `2,000`, while the `Borg_Opening` is the only opening with a median rating under `1,000`.
 
 ## Rating deviation <a name='deviation'></a>
+>See [`lichess_db_puzzle_eda_deviation.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/e00ed36e7ac232d119ace64d10de16848f68e24c/Exploratory%20Analysis/lichess_db_puzzle_eda_deviation.ipynb) for more details.
+
+Rating deviation is very consistent across most features in the database. Two things that stood out from our investigations here are the following.
+
+- The theme `equality` has a much higher median rating deviation than the other themes.
+
+![theme_vs_rating_deviation](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/bb59827f-8741-4e59-a7ea-d3b8e8dd460f)
+
+- The opening with the highest median rating deviation is the `Norwegian_Defense`.
+
+![opening_vs_rating_deviation](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/d50d2069-c097-4efb-8afa-f4fcef6c11b8)
 
 ## Popularity <a name='popularity'></a>
+>See [`lichess_db_puzzle_eda_popularity.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/e00ed36e7ac232d119ace64d10de16848f68e24c/Exploratory%20Analysis/lichess_db_puzzle_eda_popularity.ipynb) for more details.
+
+Aside from the relationship between `Puzzle_Length` and `Rating`, the next strongest correlation was between `Popularity` and `Rating_Deviation`, visualized below.
+
+![popularity_vs_rating_deviation_boxplot](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/28c0345a-5849-41b7-a0fa-470c9cc743a3)
+
+Observe, as popularity increases, the median rating deviation decreases.
+
+The other features seemed to have little impact on popularity—notably, median popularity is fairly stable when compared across themes.
+
+![theme_vs_popularity_boxplot](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/4c16bf29-33bb-4b2c-962d-9616e20ccffa)
+
+Notably, the `Queens_Pawn_Mengarini_Attack` is the opening with lowest median popularity.
+
+![opening_vs_popularity_boxplot](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/8c52235d-8bb2-4de3-9b3d-63f57fd0a83b)
+
+
