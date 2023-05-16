@@ -44,6 +44,12 @@ Whether all of this resulted in me learning more about tactics is debatable, but
 
 >Keep getting puzzles correct!
 
-The strategy taking as long as necessary meant I played fewer puzzles, but I almost always got them right—so my rating kept going up! This strategy is, admittedly, time-consuming and mentally draining—however, I'm a mathematician, so I'm accustomed to being stuck on a single problem for days (or even years) at a time. Nonetheless, I started playing the easier unrated puzzles as a fun distraction since the rated ones had become so challenging.
+The strategy taking as long as necessary meant I played fewer puzzles, but I almost always got them right—so my rating kept going up! 
+
+My highest rating was `2,510`, achieved in late-February 2023. This is in the `96-th` percentile of puzzle ratings.
+
+![Screenshot 2023-05-16 at 10 49 21 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/e8899106-54e5-418e-9480-deda0f1a16d5)
+
+The `take-as-long-as-it-takes` strategy is, admittedly, time-consuming and mentally draining. I'm a mathematician, so I'm accustomed to being stuck on a single problem for days (or even years) at a time. Nonetheless, I started playing the easier unrated puzzles as a fun distraction since the rated ones had become so challenging. I'm not sure at the moment if I want to continue trying to push my rating as high as possible.
 
 
