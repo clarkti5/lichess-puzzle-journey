@@ -38,7 +38,7 @@ I used a personal token generated from https://lichess.org/account/oauth/token t
 ![Screenshot 2023-05-15 at 12 22 08 PM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/47844141-b64e-47a9-b663-817584da2bd2)
 ![Screenshot 2023-05-15 at 12 22 31 PM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/2b57dfb1-d59e-40d1-94dc-f4471ff2da68)
 
-The response is a `.ndjson` filed, i.e. a new-line delimited `json` file. I had trouble getting `pandas` to read this with, so I frist split the response text into a list, to which I applied `json.loads()` to parse each element as a `.json` object. Afterward, `.json_normalize()` was able to convert this data into a dataframe.
+The response is a `.ndjson` filed, i.e. a new-line delimited `json` file. I had trouble getting `pandas` to read this, so I frist split the response text into a list, to which I applied `json.loads()` to parse each element as a `.json` object. Afterward, `.json_normalize()` was able to convert this list of `.json` objects into a dataframe.
 
 ![Screenshot 2023-05-15 at 12 27 24 PM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/242dc8e9-e54f-4394-931d-d401fdb8ced6)
 
