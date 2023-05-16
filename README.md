@@ -10,7 +10,7 @@ This project was undertaken partly out of curiosity and partly to practice some 
 
 This is *certainly* not the most efficient way to do things but it worked out well enough overall and I learned a lot along the way.
 
-# What is Lichess?
+## What is Lichess?
 
 >[Lichess.org](https://lichess.org/about) is a free/libre, open-source chess server powered by volunteers and donations.
 
@@ -18,13 +18,13 @@ With humble beginnings, [Lichess.org](https://lichess.org) (pronounced "lee-ches
 
 [Lichess.org](https://lichess.org) also has an extensive database of chess tactics puzzles, all of which were generated from user games on the website. This database contains millions of puzzles [available to play](https://lichess.org/training/themes) for free!
 
-# The data
+## The data
 
 >[Data Collection and Processing Overview](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing%20Overview.md)
 
 We collected data from the full [Lichess puzzle database](https://database.lichess.org/#puzzles) as well as data on my personal rating history and puzzle activity vie the [Lichess API](https://lichess.org/api). Details can be found in [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb).
 
-# My puzzle journey
+## My puzzle journey
 
 > - [My Puzzle Activity Overview](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/My%20Puzzle%20Activity%20Overview.md)
 > - [Puzzle Activity Dashboard](https://public.tableau.com/views/MyLichessPuzzleActivity/MyPuzzleActivity?:language=en-US&:display_count=n&:origin=viz_share_link)
@@ -42,9 +42,9 @@ Now that a metric of performance was involved, what started as a way to pass tim
 
 After about a year of taking puzzles far too seriously, on February 24, 2023, I reached my all-time high puzzle rating of `2,510` (putting me in the `96th` percentile for puzzle ratings). 
 
-You'll details behind the data collection and analysis in [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb) and [`lichess_puzzle_activity_history_eda.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Exploratory%20Analysis/lichess_puzzle_activity_history_eda.ipynb) respectively.
+You'll find details behind the data collection and analysis in [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb) and [`lichess_puzzle_activity_history_eda.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Exploratory%20Analysis/lichess_puzzle_activity_history_eda.ipynb) respectively.
 
-# Exploring the Lichess puzzle database
+## Exploring the Lichess puzzle database
 
 > - [Lichess Puzzle Database Overview](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Lichess%20Puzzle%20Database%20Overview.md)
 > - [Lichess Puzzle Database Dashboard](https://public.tableau.com/views/LichessPuzzleDatabase/LichessPuzzleDatabase?:language=en-US&:display_count=n&:origin=viz_share_link)
@@ -68,3 +68,8 @@ From the [documentation](https://database.lichess.org/#puzzles):
 We went through 300,000,000 analysed games from the Lichess database, and re-analyzed interesting positions with Stockfish 12/13/14/15 NNUE at 40 meganodes. The resulting puzzles were then automatically tagged. To determine the rating, each attempt to solve is considered as a Glicko2 rated game between the player and the puzzle. Finally, player votes refine the tags and define popularity.
 
 You'll find the details behind the data collection and analysis in [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb) and the [`Exploratory Analysis` folder](https://github.com/clarkti5/lichess-puzzle-journey/tree/main/Exploratory%20Analysis) respectively.
+
+## Acknowledgements
+
+- This project would obviously not be possible if it weren't for the amazing people working on [Lichess.org](https://lichess.org). You can view all of the source code for lichess [here](https://github.com/lichess-org), you can explore their open database [here](https://database.lichess.org/), and you can make a donation [here](https://lichess.org/patron).
+- The chess piece image(s) used here were sourced from https://github.com/lichess-org/lila/pull/10842/commits/410d54efdd43b5c90ca8d8d8af4c588b9268f38f, created by https://github.com/caderek, distributed under license CC BY-NC-SA 4.0.
