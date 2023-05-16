@@ -81,6 +81,24 @@ The `take-as-long-as-it-takes` strategy is, admittedly, time-consuming and menta
 
 ## My puzzle activity <a name=activity></a>
 
+### Win rate by day and time
+
+![Screenshot 2023-05-16 at 11 06 20 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/1e91e5fa-e567-4b0a-b7fa-1a7ad8114aa1)
+
+Tuesdays, Wednesdays, and Saturdays appear to be my best puzzle-playing days, though I also play pretty well from `6:00am--8:00am` on Mondays and Fridays.
+
+### Win rate by theme
+
+I probably need to work on longer puzzles and endgame puzzles.
+
+![theme_win_histogram](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/613b75e9-34f6-41e0-884e-4ed163a2f606)
+
+### Win rate by opening
+
+Perhaps I should consider playing the `French_Defense` more often.
+
+![opening_win_histogram](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/aa1770cd-1ed2-474f-b638-680df2ba99f4)
+
 
 
 
