@@ -11,11 +11,13 @@
 
 ## My puzzle rating history <a name='history'></a>
 
-We created `puzzle_activity_df` from the `tclark_puzzle_activity_clean.csv` data processed in [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb).
+We created `puzzle_rating_history_df` from the `tclark_puzzle_rating_history_clean.csv` data processed in [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb).
 
-![Screenshot 2023-05-16 at 10 22 29 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/02b3033c-85d8-478b-a5d8-caec7013b243)
+![Screenshot 2023-05-16 at 10 57 41 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/9f3290d3-6362-437c-b75a-0591fd22a50f)
 
-Note that I played `1,716` puzzles between February 2022 and March 2023. 
+We also combined the `year`, `month`, and `day` columns into a single `date` column.
+
+![Screenshot 2023-05-16 at 10 58 29 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/8184edd9-66cb-499f-a83e-d19c0bdd3bd5)
 
 ### My rating over time
 
@@ -57,5 +59,15 @@ Taking as long as necessary meant I played fewer puzzles, but I almost always go
 ![Screenshot 2023-05-16 at 10 49 21 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/e8899106-54e5-418e-9480-deda0f1a16d5)
 
 The `take-as-long-as-it-takes` strategy is, admittedly, time-consuming and mentally draining. I'm a mathematician, so I'm accustomed to being stuck on a single problem for days (or even years) at a time. Nonetheless, I started playing the easier unrated puzzles as a fun distraction since the rated ones had become so challenging. I'm not sure at the moment if I want to continue trying to push my rating as high as possible or go back to just playing puzzles for fun.
+
+## My puzzle activity
+
+We created `puzzle_activity_df` from the `tclark_puzzle_activity_clean.csv` data processed in [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb).
+
+![Screenshot 2023-05-16 at 10 22 29 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/02b3033c-85d8-478b-a5d8-caec7013b243)
+
+Note that I played `1,716` puzzles between February 2022 and March 2023. 
+
+
 
 
