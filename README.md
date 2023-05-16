@@ -30,7 +30,7 @@ We collected data from the full [Lichess puzzle database](https://database.liche
 > - [Puzzle Activity Dashboard](https://public.tableau.com/views/MyLichessPuzzleActivity/MyPuzzleActivity?:language=en-US&:display_count=n&:origin=viz_share_link)
 > - [Rating History Dashboard](https://public.tableau.com/views/MyLichessPuzzleRatingHistory/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-At the onset of the COVID-19 Pandemic in early 2020, I—like many others—inexplicably found myself interested in learning to play chess. I created an account on Lichess.org (the clearly superior, open-source alternative to Chess.com) in May of 2020, but didn't do much with it aside from the occasional coorespondence game with friends and family.
+At the onset of the COVID-19 Pandemic in early 2020, I—like many others—inexplicably found myself interested in learning to play chess. I created an account on Lichess.org (the clearly superior, open-source alternative to Chess.com) in May of 2020, but didn't do much with it aside from the occasional correspondence game with friends and family.
 
 About 2 years later, I found myself practicing more frequently with the tactics puzzles available on Lichess. Eventually, I noticed that my puzzle performance was being evaluated with a puzzle rating. From https://database.lichess.org/#puzzles,
 
