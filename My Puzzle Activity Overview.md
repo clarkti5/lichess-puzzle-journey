@@ -12,6 +12,8 @@
 
 ## Loading the data <a name=data></a>
 
+### Rating history
+
 We created `puzzle_rating_history_df` from the `tclark_puzzle_rating_history_clean.csv` data processed in [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb).
 
 ![Screenshot 2023-05-16 at 10 57 41 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/9f3290d3-6362-437c-b75a-0591fd22a50f)
@@ -20,7 +22,21 @@ We also combined the `year`, `month`, and `day` columns into a single `date` col
 
 ![Screenshot 2023-05-16 at 10 58 29 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/8184edd9-66cb-499f-a83e-d19c0bdd3bd5)
 
-## My puzzle rating history <a name='history'></a>
+### Puzzle activity
+
+We created `puzzle_activity_df` from the `tclark_puzzle_activity_clean.csv` data processed in [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb).
+
+![Screenshot 2023-05-16 at 10 22 29 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/02b3033c-85d8-478b-a5d8-caec7013b243)
+
+Note that I played `1,716` puzzles between February 2022 and March 2023.
+
+Finally, we took a subset of the full `puzzles_df` consisting of just the puzzles that I played.
+
+![Screenshot 2023-05-16 at 11 02 38 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/2f148bbf-196e-4dfe-ada5-0ee1dcc4d87b)
+
+We dropped the `Rating` column—since many of the puzzle ratings have changed since I played the puzzles, I chose to keep their rating at the time I played them (which is stored in the `puzzleRating` column of `puzzle_activity_df`).
+
+## My puzzle rating history <a name=history></a>
 
 ### My rating over time
 
@@ -63,13 +79,8 @@ Taking as long as necessary meant I played fewer puzzles, but I almost always go
 
 The `take-as-long-as-it-takes` strategy is, admittedly, time-consuming and mentally draining. I'm a mathematician, so I'm accustomed to being stuck on a single problem for days (or even years) at a time. Nonetheless, I started playing the easier unrated puzzles as a fun distraction since the rated ones had become so challenging. I'm not sure at the moment if I want to continue trying to push my rating as high as possible or go back to just playing puzzles for fun.
 
-## My puzzle activity
+## My puzzle activity <a name=activity></a>
 
-We created `puzzle_activity_df` from the `tclark_puzzle_activity_clean.csv` data processed in [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb).
-
-![Screenshot 2023-05-16 at 10 22 29 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/02b3033c-85d8-478b-a5d8-caec7013b243)
-
-Note that I played `1,716` puzzles between February 2022 and March 2023. 
 
 
 
