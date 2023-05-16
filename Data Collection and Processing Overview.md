@@ -6,7 +6,7 @@
 3. [My puzzle activity](#activity)
 4. [My puzzle rating history](#history)
 
-## Lichess puzzle database <a name='database'></a>
+## Lichess puzzle database <a name=database></a>
 
 The Lichess puzzle database was downloaded from [https://database.lichess.org/#puzzles](https://database.lichess.org/#puzzles) on March 22, 2023. The data was in the form of a compressed `.csv` using [`zstd`](https://github.com/facebook/zstd) compression. This file was decompressed in command line and converted to a `pandas` dataframe using `.read_csv()`.
 
@@ -30,7 +30,7 @@ Note that the number of moves the *player* must make is actually half of the num
 
 >$$\dfrac{\text{Puzzle Length} + 1}{2}.$$
 
-## My puzzle activity <a name='activity'></a>
+## My puzzle activity <a name=activity></a>
 
 I used a personal token generated from https://lichess.org/account/oauth/token to access my puzzle activity from the Lichess API at https://lichess.org/api/puzzle/activity.
 
@@ -46,7 +46,7 @@ Note that the `date` column is in `13`-digit format. I converted these to `datet
 
 ![Screenshot 2023-05-15 at 12 30 30 PM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/cb3cb41c-5ac6-4580-a295-85b767434f1c)
 
-## My puzzle rating history <a name='history'></a>
+## My puzzle rating history <a name=history></a>
 
 My rating history was downloaded directly from https://lichess.org/api/user/tclark/rating-history as a `.json` file. My puzzle rating history was encoded as a list of points at index `13` of this file. This list was read into a dataframe as below.
 
