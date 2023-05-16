@@ -15,7 +15,11 @@ We created `puzzle_activity_df` from the `tclark_puzzle_activity_clean.csv` data
 
 ![Screenshot 2023-05-16 at 10 22 29 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/02b3033c-85d8-478b-a5d8-caec7013b243)
 
-Note that I played `1,716` puzzles between February 2022 and March 2023. Below is a visualization of my rating over time.
+Note that I played `1,716` puzzles between February 2022 and March 2023. 
+
+### My rating over time
+
+Below is a visualization of my rating over time.
 
 ![rating_by_day](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/66de15c0-b974-4027-886b-e5cfcc29fda3)
 
@@ -29,6 +33,8 @@ Overall, it seems I have gone through a cycle that looks something like
 The figure below considers my rating broken into `6` segements each containing an approximately equal number of days. Observe the plateaus from July 2022 to September 2022 and from mid-October 2022 through January 2023.
 
 ![rating_by_day_cut_number](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/a0b35a55-c7de-429c-8871-c9bbbe637cf7)
+
+### A new strategy
 
 We can compare my rating history to the volume of puzzles played per day, as visualized here.
 
@@ -44,9 +50,9 @@ Whether all of this resulted in me learning more about tactics is debatable, but
 
 >Keep getting puzzles correct!
 
-The strategy taking as long as necessary meant I played fewer puzzles, but I almost always got them right—so my rating kept going up! 
+### My highest rating
 
-My highest rating was `2,510`, achieved in late-February 2023. This is in the `96-th` percentile of puzzle ratings.
+The strategy taking as long as necessary meant I played fewer puzzles, but I almost always got them right—so my rating kept going up! My highest rating was `2,510`, achieved in late-February 2023. This is in the `96-th` percentile of puzzle ratings.
 
 ![Screenshot 2023-05-16 at 10 49 21 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/e8899106-54e5-418e-9480-deda0f1a16d5)
 
