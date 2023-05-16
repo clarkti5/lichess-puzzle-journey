@@ -85,7 +85,7 @@ The `take-as-long-as-it-takes` strategy is, admittedly, time-consuming and menta
 
 ![Screenshot 2023-05-16 at 11 06 20 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/1e91e5fa-e567-4b0a-b7fa-1a7ad8114aa1)
 
-Tuesdays, Wednesdays, and Saturdays appear to be my best puzzle-playing days, though I also play pretty well from `6:00am--8:00am` on Mondays and Fridays.
+Tuesdays, Wednesdays, and Saturdays appear to be my best puzzle-playing days.
 
 ### Win rate by theme
 
