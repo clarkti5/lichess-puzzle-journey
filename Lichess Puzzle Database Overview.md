@@ -1,7 +1,7 @@
 # Exploratory analysis on the Lichess puzzle database
 >See the [Exploratory Analysis folder](https://github.com/clarkti5/lichess-puzzle-journey/tree/e00ed36e7ac232d119ace64d10de16848f68e24c/Exploratory%20Analysis) for more details.
 
-|![Lichess Puzzle Database](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/11df224a-f3a2-4b7e-bde1-92434d96aac4)|
+|![Lichess Puzzle Database (1)](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/5ad77779-a1f4-4c77-afe0-9f6868eda0af)|
 |:--:|
 |*Interactive version available [here](https://public.tableau.com/views/LichessPuzzleDatabase/LichessPuzzleDatabase?:language=en-US&:display_count=n&:origin=viz_share_link)*|
 
@@ -17,11 +17,11 @@
 
 We used `pandas` to read the `lichess_db_puzzle_clean.csv` file from [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/e00ed36e7ac232d119ace64d10de16848f68e24c/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb) as a dataframe called `puzzles_df`. We found that there are over `3` million puzzles in the database.
 
-![Screenshot 2023-05-16 at 8 43 48 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/39066424-8398-4299-9800-bd401fcc8a07)
+![Screenshot 2023-05-16 at 8 43 48 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/a73d8c21-4f98-4cb0-8e1c-407eea7dda1c)
 
 We then examined the descriptive statistics using `puzzles_df.describe()`.
 
-![Screenshot 2023-05-16 at 8 45 15 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/7211a48d-6f73-4fac-a80e-8dd31f999bd5)
+![Screenshot 2023-05-16 at 8 45 15 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/8089413a-5eaa-4431-afc2-082beaff990e)
 
 Some interesting characteristics include the following.
 
@@ -34,15 +34,15 @@ Some interesting characteristics include the following.
 
 We also used [`chess`](https://github.com/niklasf/python-chess/tree/master) to view some puzzles. For example, below is the puzzle with highest rating.
 
-![Screenshot 2023-05-16 at 8 47 43 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/7d3caa35-99e0-4d93-9538-0a2583dc3f1a)
+![Screenshot 2023-05-16 at 8 47 43 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/65186f29-871f-44ce-b93c-afc24d0a8757)
 
 Here is the puzzle with the highest number of plays.
 
-![Screenshot 2023-05-16 at 8 48 14 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/b2525dca-0e44-4960-9caf-a06d128124a1)
+![Screenshot 2023-05-16 at 8 48 14 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/c8cfd740-e023-4a37-bba1-46ad64b50621)
 
 Finally, we examined the feature correlations.
 
-![Screenshot 2023-05-16 at 8 49 06 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/112157f5-e2c4-4b6b-b5be-80b20cb29c43)
+![Screenshot 2023-05-16 at 8 49 06 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/9ee57ffa-bcd5-4c08-bac8-366a3ce472de)
 
 - Perhaps unsurprisingly,`Puzzle_Length` and `Rating` are moderately positively correlated (i.e. longer puzzles tend to be more difficult).
 - There is a weak negative correlation between `Popularity` and `Rating_Deviation`. This may indicate that popular puzzles tend to have lower rating deviation.
