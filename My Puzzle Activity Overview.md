@@ -73,7 +73,7 @@ Whether all of this resulted in me learning more about tactics is debatable, but
 
 ### My highest rating
 
-Taking as long as necessary meant I played fewer puzzles, but I almost always got them right—so my rating kept going up! My highest rating was `2,510`, achieved in late-February 2023. This is in the `96-th` percentile of puzzle ratings.
+Taking as long as necessary meant I played fewer puzzles, but I almost always got them right—so my rating kept going up! My highest rating was `2,510`, achieved in late-February 2023. This is in the `96th` percentile of puzzle ratings.
 
 ![Screenshot 2023-05-16 at 10 49 21 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/c3f07fcb-0ced-497b-a55c-2d1748a54ec2)
 
