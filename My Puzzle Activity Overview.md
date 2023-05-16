@@ -6,10 +6,11 @@
 |*Interactive version available [here.](https://public.tableau.com/views/MyLichessPuzzleRatingHistory/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)* | *Interactive version available [here.](https://public.tableau.com/views/MyLichessPuzzleActivity/MyPuzzleActivity?:language=en-US&:display_count=n&:origin=viz_share_link)*|
 
 ## Contents
-1. [My puzzle rating history](#history)
-2. [My puzzle activity](#activity)
+1. [Loading the data](#data)
+2. [My puzzle rating history](#history)
+3. [My puzzle activity](#activity)
 
-## My puzzle rating history <a name='history'></a>
+## Loading the data <a name=data></a>
 
 We created `puzzle_rating_history_df` from the `tclark_puzzle_rating_history_clean.csv` data processed in [`puzzle_journey_data_collection_processing.ipynb`](https://github.com/clarkti5/lichess-puzzle-journey/blob/main/Data%20Collection%20and%20Processing/puzzle_journey_data_collection_processing.ipynb).
 
@@ -18,6 +19,8 @@ We created `puzzle_rating_history_df` from the `tclark_puzzle_rating_history_cle
 We also combined the `year`, `month`, and `day` columns into a single `date` column.
 
 ![Screenshot 2023-05-16 at 10 58 29 AM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/8184edd9-66cb-499f-a83e-d19c0bdd3bd5)
+
+## My puzzle rating history <a name='history'></a>
 
 ### My rating over time
 
