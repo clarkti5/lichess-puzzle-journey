@@ -10,7 +10,7 @@
 
 The Lichess puzzle database was downloaded from [https://database.lichess.org/#puzzles](https://database.lichess.org/#puzzles) on March 22, 2023. The data was in the form of a compressed `.csv` using [`zstd`](https://github.com/facebook/zstd) compression. This file was decompressed in command line and converted to a `pandas` dataframe using `.read_csv()`.
 
-![Screenshot 2023-05-15 at 12 06 50 PM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/7201e190-cfad-4bf5-98bf-c1d6a1d18d23)
+![Screenshot 2023-05-15 at 12 06 50 PM](https://github.com/clarkti5/lichess-puzzle-journey/assets/50031286/69b31948-1022-499a-9db3-f736f213520a)
 
 The data initially contained no headers, so we added headers in line with the [database documentation](https://database.lichess.org/#puzzles).
 
