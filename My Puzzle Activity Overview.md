@@ -40,7 +40,7 @@ Working for about `20` minutes at a time, I would sometimes take several days on
 
 After taking a break in ealry December, I finally overcame the 2,100 rating barrier. My rating continued to improve as I continued to successfully solve puzzles. Around March 2023, I also began playing easy unrated puzzles in between the more difficult rated puzzles, so the volumes on the graph may be a bit misleading, since I was only completing a rated puzzle once every couple of days.
 
-Whether all of this resulted in me learning more about tactics is debatable, but it did have a noticeable impact on improving my puzzle rating. Ultimately, if you're looking for the secret to improving your puzzle rating, my advice is
+Whether all of this resulted in me learning more about tactics is debatable, but it did have a noticeable impact on improving my puzzle rating. Ultimately, if you're looking for the secret to improving your puzzle rating, my advice is simply
 
 >Keep getting puzzles correct!
 
